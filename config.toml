@@ -1,4 +1,4 @@
-baseurl = "http://rprakashg.io"
+baseurl = "http://rprakashg.io/"
 languageCode = "en-us"
 title = "Ram Gopinathan's Resume"
 theme = "hugo-orbit"
