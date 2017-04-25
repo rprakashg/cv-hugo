@@ -7,8 +7,7 @@ script:
 - hugo
 - python --version
 - sudo pip install s3cmd
-- s3cmd sync --access_key=${AWS_ACCESS_KEY} --secret_key=${AWS_SECRET_KEY} -r publish/
-  s3://rprakashg-io-web/
+- s3cmd sync -r publish/ s3://rprakashg-io-web/
 notifications:
   email:
     on_failure: always
