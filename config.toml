@@ -2,7 +2,7 @@ baseurl = "http://rprakashg.io/"
 languageCode = "en-us"
 title = "Ram Gopinathan's Resume"
 theme = "hugo-orbit"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-20393691-6"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "publish"
@@ -55,8 +55,8 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//rprakashg.io"
-        title = "rprakashg.io"
+        url = "http://rprakashg.io/blog"
+        title = "rprakashg.io/blog"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -67,7 +67,7 @@ disable404 = true
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/rprakashg"
+        url = "http://github.com/rprakashg"
         title = "rprakashg"
 
         [[params.contact.list]]
@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "**Principal Architect** with over 22+ years of experience in the software industry. Primarily focused on Docker, Microservices, AWS/Azure cloud and DevOps and Continuous Delivery"
 
     # Experiences section
     [params.experiences]
@@ -128,53 +128,81 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Sr. Manager/Principal Architect"
-        dates = "2015 - Present"
+        dates = "Jan 2016 - Present"
         company = "T-Mobile, Bellevue"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = "As a Principal Architect working primarily on T-Mobile web properties as well as mobile apps that leverage AWS cloud. Design, build, test dockerized microservices that run on Mesos/Marathon, Continous Delivery using Jenkins, Artifactory"
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Full Stack Engineer (Contract)"
+        dates = "Oct 2015 - Dec 2015"
+        company = "Microsoft, Redmond"
+        details = "As a full stack engineer worked on hybrid cloud employee data management solution for Microsoft HRIT. Application is used by all employees of Microsoft and automates several business processes for Microsoft HR group by providing an easy to use modern web based user interface. Technologies utilized include Azure Cloud Services, Azure Servicebus, AngularJS, KnockoutJS, Less/Sass, ASP.NET MVC/Web API, WCF services, K2 for workflow automation and Octopus Deploy for automating Azure deployment."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Full Stack Engineer (Contract)"
+        dates = "Aug 2015 - Oct 2015"
+        company = "Visa, Bellevue"
+        details = "Worked as a Contract full stack engineer on Authorize.Net payment platform for Visa. Authorize.NET platform provides APIs and tools necessary for business to perform credit card transactions on the web. Worked on a key project that completely built the user experience platform from the ground up to provide a responsive, modern web application experience that works well on all form factors. Leverage AngularJS, Less/SaaS, Gulp, Bootstrap on the front end and ASP.NET Web API for developing backend APIs that power web experiences."
+
+        [[params.jobs.list]]
+        position = "Cloud Solutions Architect/Trainer"
+        dates = "Dec 2014 - Jan 2017"
+        company = "Marview Solutions, Redmond"
+        details = "As an Independant Cloud Solution Architect was primarily focused on consulting and training on Azure cloud platform for customers around the globe"
+
+        [[params.jobs.list]]
+        position = "Technical Lead"
+        dates = "Nov 2013 - Dec 2014"
+        company = "Bluetooth SIG, Kirkland"
+        details = "Member of engineering team, responsible for design, development of internal and public facing online websites, tools and applications for Bluetooth primarily on Microsoft platform"
+
+        [[params.jobs.list]]
+        position = "Senior Service Design Engineer"
+        dates = "June 2012 - Sept 2013"
+        company = "Microsoft, Redmond"
+        details = "As a Sr. SDE within the Microsoft.com team, key responsibilities include design build online consumer facing websites and services deployed on Microsoft.com ECM platform."
+
+        [[params.jobs.list]]
+        position = "Solutions Architect (Contract)"
+        dates = "Dec 2011 - May 2012"
+        company = "Deloitte Tax, Dallas"
+        details = "As SharePoint Solutions Architect worked on global tax portal project developed on SharePoint 2010 platform. Tax Portal automates all tax mega processes and is used by Deloitte tax professionals all around the world"
+
+        [[params.jobs.list]]
+        position = "Solutions Architect (Contract)"
+        dates = "July 2011 - Dec 2011"
+        company = "Federal Reserve Bank, Chicago"
+        details = "As SharePoint Solutions Architect worked on migration/Re-Design of intranet portal built using autonomy team site and other various open source CMS platforms to SharePoint 2010 platform."
+
+        [[params.jobs.list]]
+        position = "Sr. Manager"
+        dates = "Oct 2010 - April 2011"
+        company = "Deloitte, Chicago"
+        details = "As a Sr. Manager based out of Chicago is responsible for design and architecture of Deloitte next generation extranet platform on SharePoint 2010. Leading migration activities for about 90,000 eRoom sites and 30TB of content as well as development of new capabilities in SharePoint 2010. Responsibilities also include working cross teams with Intranet & Knowledge Management and Enterprise Search initiatives. Working with offshore partners assisting in design review as well as overseeing delivery of key software components."
+
+        [[params.jobs.list]]
+        position = "Solutions Architect"
+        dates = "Mar 2008 - Sept 2010"
+        company = "Microsoft, Chicago"
+        details = "As a SharePoint Architect based out of central region worked on SharePoint projects for Large global enterprise customers."
+
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "Listed below are few of the projects opensourced on github"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Cloudformation Templates"
+        url = "https://github.com/rprakashg/cf-templates"
+        tagline = "AWS Cloudformation templates contributed to community"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Generic Repository Implementation for AWS SQS & S3"
+        url = "https://github.com/rprakashg/aws-common"
+        tagline = "Java/SpringBoot library that implements generic repository for AWS S3 and SQS"
 
     # Skills section
     [params.skills]
@@ -183,9 +211,33 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "Docker"
+        level = "90%"
                 
+        [[params.skills.list]]
+        skill = "Microservices"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Docker Swarm & Mesos/Marathon"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "SpringBoot & SpringCloud"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Java & C#"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Golang"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "NodeJS"
+        level = "70%"
+
         [[params.skills.list]]
         skill = "Javascript & jQuery"
         level = "98%"
@@ -196,24 +248,12 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "API First & API Design"
+        level = "80%"
 
     # Footer section
-
-    # The original template is released under the Creative Commons Attribution 3.0 License.
-    # Please keep the original attribution link when using for your own project.
-    # If you'd like to use the template without the attribution,
-    # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
-    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
-
     [params.footer]
         copyright = "Ram Gopinathan, all rights reserved"
