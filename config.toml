@@ -33,7 +33,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Ram Gopinathan"
-        tagline = "Full Stack Web and Mobile Engineer"
+        tagline = "Hands on Sr. Manager/Principal Architect"
         avatar = "profile.png"
 
     # Contact section
@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Principal Architect** with over 22+ years of experience in the software industry. Primarily focused on Docker, Microservices, AWS/Azure cloud and DevOps and Continuous Delivery"
+        summary = "**Principal Architect** with over 22+ years of experience in the software industry. Primarily focused on Docker, Microservices, Container Orchestration platforms such as Mesos/Marathon, Elastic Container Services (ECS) and Docker Swarm, AWS/Azure cloud, IoT solutions, DevOps and Continuous Delivery"
 
     # Experiences section
     [params.experiences]
@@ -130,7 +130,7 @@ disable404 = true
         position = "Sr. Manager/Principal Architect"
         dates = "Jan 2016 - Present"
         company = "T-Mobile, Bellevue"
-        details = "As a Principal Architect working primarily on T-Mobile web properties as well as mobile apps that leverage AWS cloud. Design, build, test dockerized microservices that run on Mesos/Marathon, Continous Delivery using Jenkins, Artifactory"
+        details = "Member of Solution Design and Architecture team primarily work on all T-Mobile Selfservice applications (Mobile/Web) as well as IoT solutions that leverages AWS Cloud, Container Platforms, Microservices, DevOps, Continuous Delivery and Automation using OSS technologies"
 
         [[params.jobs.list]]
         position = "Full Stack Engineer (Contract)"
@@ -211,7 +211,7 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Docker"
+        skill = "Docker CE & EE"
         level = "90%"
                 
         [[params.skills.list]]
@@ -219,12 +219,24 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Docker Swarm & Mesos/Marathon"
+        skill = "Docker Swarm, Mesos/Marathon, Elastic Container Services"
         level = "98%"
 
         [[params.skills.list]]
         skill = "SpringBoot & SpringCloud"
-        level = "80%"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Vertx"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Grafana"
+        level = "70%"
+        
+        [[params.skills.list]]
+        skill = "Prometheus, Graphite"
+        level = "90%"
 
         [[params.skills.list]]
         skill = "Java & C#"
@@ -232,7 +244,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Golang"
-        level = "60%"
+        level = "70%"
 
         [[params.skills.list]]
         skill = "NodeJS"
@@ -253,6 +265,18 @@ disable404 = true
         [[params.skills.list]]
         skill = "API First & API Design"
         level = "80%"
+
+        [[params.skills.list]]
+        skill = "NoSQL"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Azure"
+        level = "90%"
 
     # Footer section
     [params.footer]
