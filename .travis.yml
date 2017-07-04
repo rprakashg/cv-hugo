@@ -11,9 +11,10 @@ deploy:
   access_key_id: "${AWS_ACCESS_KEY}"
   secret_access_key: "${AWS_SECRET_KEY}"
   bucket: rprakashg-io-web
-  upload-dir: "/"
+  upload-dir: ""
   local_dir: publish
   skip_cleanup: true
+  region: us-west-2
 after_deploy:
 - aws configure set preview.cloudfront true
 - "./cdn-invalidate.sh"
